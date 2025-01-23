@@ -1,0 +1,125 @@
+h1 {
+    /* color: rgb(127, 47, 219); */
+    color: rgb(168, 89, 153);
+    font-size: 30px;
+    font-family: 'Poppins';
+}
+
+h2 {
+    /* color: rgb(162, 83, 241); */
+    color: #eb78e9;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div {
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.img-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.shadowed {
+    box-shadow: 5px 5px 3px grey;
+}
+
+.white-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    margin: 5px auto;
+    text-align: center;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.btn-blue {
+    background-color: rgb(161, 96, 177);
+    /* background-color: rgb(66, 184, 220); */
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.btn-blue:hover {
+    background-color: rgb(196, 131, 212);
+    /* background-color: #91c2dc; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hobbies {
+    text-align: center;
+}
+
+i {
+    font-size: 50px;
+}
+
+.linkedin {
+    color: #0077b5;
+}
+
+.github {
+    color: black;
+}
+
+.medium {
+    color: black;
+}
+
+.medium-link {
+    color: black;
+    text-decoration: none;
+}
+
+.medium-link:hover {
+    color: rgb(196, 131, 212);
+}
+
+i:hover{
+    /* color: rgb(127, 47, 219); */
+    color: rgb(196, 131, 212);
+}
+
+.list-inline > li {
+    display: inline;
+    padding: 5px;
+}
+
+.list-inline {
+    padding: 0px;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
