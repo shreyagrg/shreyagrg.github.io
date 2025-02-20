@@ -5,6 +5,16 @@ h1 {
     font-family: 'Poppins';
 }
 
+.hello_world {
+    color: rgb(168, 89, 153);
+    font-style: italic;
+    text-decoration: none;
+}
+
+.hello_world:hover {
+    color: rgb(196, 131, 212);
+}
+
 h2 {
     /* color: rgb(162, 83, 241); */
     color: #eb78e9;
@@ -84,7 +94,7 @@ i {
 }
 
 .medium-link {
-    color: black;
+    color: rgb(168, 89, 153);
     text-decoration: none;
 }
 
